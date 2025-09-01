@@ -1,1 +1,2 @@
 Your summary for program in ../../resource/correctJavaPrograms/basic-calculator/Solution.java
+Example: The function `calculate` evaluates a string expression with integers, '+', '-', and parentheses. When ...(masked). [It should be a human-readable, informative, descriptive, natural language description of the function of the program.]
