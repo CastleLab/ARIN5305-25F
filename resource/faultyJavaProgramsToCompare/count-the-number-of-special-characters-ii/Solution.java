@@ -6,7 +6,7 @@ public class Solution {
         Map<Character, Integer> firstUpperCasePos = new HashMap<>();
         Map<Character, Integer> lastLowerCasePos = new HashMap<>();
         
-        for(int i = 0; i < word.length(); i++) {
+        for(int i = 0; i <= word.length(); i++) { // buggy
             char ch = word.charAt(i);
             if(Character.isLowerCase(ch)) {
                 lastLowerCasePos.put(ch, i);
